@@ -28,9 +28,6 @@
                 'selector'    : '.byline',
                 'translateY'  : -110,
                 'opacity'     : 0
-            } , {
-                'selector'    : '.twitter',
-                'opacity'     : [1, 0]
             }
         ]
     };
@@ -220,6 +217,10 @@
             } , {
                 'selector'    : '#davegamache-dot-com',
                 'scale'       : [.5, 1]
+            } , {
+                'selector'    : '#video',
+                'scale'       : [.5, 1],
+                'rotate'      : 90
             }
         ]
     };
@@ -251,6 +252,10 @@
             } , {
                 'selector'    : '#davegamache-dot-com',
                 'scale'       : [1, 1]
+            } , {
+                'selector'    : '#video',
+                'scale'       : [1, 1],
+                'rotate'      : 90
             }
         ]
     };
