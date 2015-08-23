@@ -37,6 +37,11 @@ body {
     font-size: 35px !important;
 }
 
+.large {
+    font-size: 45px;
+    font-weight: bold;
+}
+
 /* 1. Intro Keyframe
 --------------------------------------- */
 #intro {
@@ -170,10 +175,6 @@ body {
 }
 #medium-profile-iphone {
   z-index: 2;
-}
-.large {
-  font-size: 45px;
-  font-weight: bold;
 }
 
 /* 4. Handling resize and small devices
