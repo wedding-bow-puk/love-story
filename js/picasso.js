@@ -162,6 +162,18 @@
         ]
     };
 
+    var firstTime = {
+        'wrapper' : '#first-time',
+        'duration' : '100%',
+        'animations' :  [
+            {
+                'selector'    : '.name',
+                'translateY'  : -140,
+                'opacity'     : 0
+            }
+        ]
+    };
+
     var images1 = {
         'wrapper' : '#images',
         'duration' : '150%',
@@ -265,6 +277,7 @@
         explosion1,
         explosion2,
         explosion3,
+        firstTime,
         images1,
         images2,
         images3,

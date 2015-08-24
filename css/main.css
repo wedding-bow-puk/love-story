@@ -131,6 +131,24 @@ body {
 .dei-16 { top: 210px;   left: 210px; }
 
 
+/* 1. First Time
+--------------------------------------- */
+#first-time {
+    position: fixed;
+    top: 48%;
+    left: 10%;
+    width: 80%;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.name {
+    font-size: 35px;
+    letter-spacing: 12px;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
 /* 3. Images Keyframe
 --------------------------------------- */
 .raw-page {
