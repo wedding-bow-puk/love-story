@@ -117,65 +117,65 @@ body {
     text-transform: uppercase;
 }
 
-/*/!* 2. Explosion/Images/Links Structure and Text*/
-/*--------------------------------------- *!/*/
-/*#explosion,*/
-/*#images {*/
-    /*position: fixed;*/
-    /*top: 100%;*/
-    /*width: 100%;*/
-    /*height: 100%;*/
-/*}*/
-/*.explosion-byline,*/
-/*.images-byline {*/
-    /*position: fixed;*/
-    /*top: 63%;*/
-    /*left: 10%;*/
-    /*color: white;*/
-    /*max-width: 22%;*/
-    /*opacity: 0;*/
-/*}*/
-/*.images-byline-2 {*/
-    /*text-align: center;*/
-    /*position: fixed;*/
-    /*top: 93%;*/
-    /*left: 25%;*/
-    /*color: white;*/
-    /*width: 50%;*/
-    /*opacity: 0;*/
-/*}*/
+/* 2. Explosion/Images/Links Structure and Text
+--------------------------------------- */
+#explosion,
+#images {
+    position: fixed;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+}
+.explosion-byline,
+.images-byline {
+    position: fixed;
+    top: 63%;
+    left: 10%;
+    color: white;
+    max-width: 22%;
+    opacity: 0;
+}
+.images-byline-2 {
+    text-align: center;
+    position: fixed;
+    top: 93%;
+    left: 25%;
+    color: white;
+    width: 50%;
+    opacity: 0;
+}
 
-/*/!* 3. Explosion Keyframe*/
-/*--------------------------------------- *!/*/
-/*#domExplosionList {*/
-    /*position: fixed;*/
-    /*width: 270px;*/
-    /*top: 100%;*/
-    /*right: 15%;*/
-    /*opacity: 0;*/
-/*}*/
-/*.dom-explosion-item {*/
-    /*position: absolute;*/
-    /*width: 60px;*/
-    /*height: 60px;*/
-    /*background-color: #fff;*/
-/*}*/
-/*.dei-1  { top: 0;   left: 0;  }*/
-/*.dei-2  { top: 0;   left: 70px; }*/
-/*.dei-3  { top: 0;   left: 140px; }*/
-/*.dei-4  { top: 0;   left: 210px; }*/
-/*.dei-5  { top: 70px;   left: 0;  }*/
-/*.dei-6  { top: 70px;   left: 70px; }*/
-/*.dei-7  { top: 70px;   left: 140px; }*/
-/*.dei-8  { top: 70px;   left: 210px; }*/
-/*.dei-9  { top: 140px;   left: 0;  }*/
-/*.dei-10 { top: 140px;   left: 70px; }*/
-/*.dei-11 { top: 140px;   left: 140px; }*/
-/*.dei-12 { top: 140px;   left: 210px; }*/
-/*.dei-13 { top: 210px;   left: 0;  }*/
-/*.dei-14 { top: 210px;   left: 70px; }*/
-/*.dei-15 { top: 210px;   left: 140px; }*/
-/*.dei-16 { top: 210px;   left: 210px; }*/
+/* 3. Explosion Keyframe
+--------------------------------------- */
+#domExplosionList {
+    position: fixed;
+    width: 270px;
+    top: 100%;
+    right: 15%;
+    opacity: 0;
+}
+.dom-explosion-item {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+}
+.dei-1  { top: 0;   left: 0;  }
+.dei-2  { top: 0;   left: 70px; }
+.dei-3  { top: 0;   left: 140px; }
+.dei-4  { top: 0;   left: 210px; }
+.dei-5  { top: 70px;   left: 0;  }
+.dei-6  { top: 70px;   left: 70px; }
+.dei-7  { top: 70px;   left: 140px; }
+.dei-8  { top: 70px;   left: 210px; }
+.dei-9  { top: 140px;   left: 0;  }
+.dei-10 { top: 140px;   left: 70px; }
+.dei-11 { top: 140px;   left: 140px; }
+.dei-12 { top: 140px;   left: 210px; }
+.dei-13 { top: 210px;   left: 0;  }
+.dei-14 { top: 210px;   left: 70px; }
+.dei-15 { top: 210px;   left: 140px; }
+.dei-16 { top: 210px;   left: 210px; }
 
 
 /* 3. First Time Starbuck
@@ -241,19 +241,69 @@ body {
 /* 5. Closer Dresden Keyframe
 --------------------------------------- */
 #closer-dresden {
+    position: fixed;
+    top: 80%;
+    left: 10%;
+    width: 80%;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
 
+.closer-dresden-big-name {
+    font-size: 35px;
+    letter-spacing: 12px;
+    line-height: 1.5;
+    font-weight: 900;
+    opacity: 0;
 }
 
 /* 6. In Love Dresden Keyframe
 --------------------------------------- */
 #inlove-dresden {
+    position: fixed;
+    top: 80%;
+    left: 10%;
+    width: 80%;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
 
+.inlove-dresden-small-name {
+    font-size: 35px;
+    letter-spacing: 12px;
+    line-height: 1.5;
+    font-weight: 900;
+    opacity: 0;
+}
+
+.inlove-dresden-big-name {
+    font-size: 25px;
+    letter-spacing: 12px;
+    line-height: 1.5;
+    font-weight: 900;
+    opacity: 0;
 }
 
 /* 7. Friend to Partner Keyframe
 --------------------------------------- */
 #frindtopartner {
+    position: fixed;
+    top: 80%;
+    left: 10%;
+    width: 80%;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
 
+.frindtopartner-big-name {
+    font-size: 35px;
+    letter-spacing: 12px;
+    line-height: 1.5;
+    font-weight: 900;
+    opacity: 0;
 }
 
 /* 3. Images Keyframe

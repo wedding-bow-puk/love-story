@@ -190,13 +190,13 @@
 
     var firstTimeStarbuck2 = {
         'wrapper' : '#first-time-starbuck',
-        'duration' : '20%',
+        'duration' : '10%',
         'animations' :  []
     };
     
     var firstTimeStarbuck3 = {
         'wrapper' : '#first-time-starbuck',
-        'duration' : '100%',
+        'duration' : '70%',
         'animations' :  [
             {
                 'selector'    : '.starbuck-first-line',
@@ -209,7 +209,7 @@
             } , {
                 'selector'    : '#starbuck',
                 'translateY'  : '-10%',
-                'opacity'     : 0
+                'opacity'     : -0.5
             }
         ]
     };
@@ -239,19 +239,21 @@
     var closerDresden = {
         'wrapper' : '#closer-dresden',
         'background': 'dresden-background',
-        'duration' : '150%',
+        'duration' : '100%',
         'animations' :  []
     };
 
     var inloveDresden = {
         'wrapper' : '#inlove-dresden',
-        'duration' : '150%',
+        'background': 'dresden-background',
+        'duration' : '100%',
         'animations' :  []
     };
     
     var frindtopartner = {
         'wrapper' : '#frindtopartner',
-        'duration' : '150%',
+        'background': 'dresden-background',
+        'duration' : '100%',
         'animations' :  []
     };
 
@@ -499,7 +501,7 @@
         $(animation.selector).css({
             'transform': 'translate3d(' + translateX +'px, ' + translateY + 'px, 0) scale('+ scale +') rotate('+ rotate +'deg)',
             'opacity' : opacity
-        })
+        });
       }
     };
 
@@ -538,6 +540,8 @@
             currentWrapper = keyframe.wrapper;
             if (typeof keyframe.background !== 'undefined') {
                 $('#fullscreen-background').removeClass().addClass(keyframe.background);
+            } else {
+                $('#fullscreen-background').removeClass().addClass('berlin-background');
             }
         }
     };
