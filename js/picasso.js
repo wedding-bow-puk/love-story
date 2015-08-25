@@ -18,7 +18,7 @@
 
     var intro = {
         'wrapper' : '#intro',
-        'duration' : '100%',
+        'duration' : '150%',
         'animations' :  [
             {
                 'selector'    : '.name',
@@ -31,147 +31,228 @@
             }
         ]
     };
-
-    var explosion1 = {
-        'wrapper' : '#explosion',
+    
+    var theBeginning = {
+        'wrapper' : '#the-beginning',
         'duration' : '150%',
-        'animations' :  [
-            {
-                'selector'    : '.explosion-byline',
-                'translateY'  : '-25%',
-                'opacity'     : [0, 1.75] // hack to accelrate opacity speed
-            } , {
-                'selector'    : '#domExplosionList',
-                'translateY'  : '-70%',
-                'opacity'     : [0, 1] // hack to accelrate opacity speed
-            }
-        ]
-    };
-
-    var explosion2 = {
-        'wrapper' : '#explosion',
-        'duration' : '150%',
-        'animations' :  [
-            {
-                'selector'    : '.dei-1',
-                'translateY'  : '-15%',
-                'translateX'  : '-10%',
-                'opacity'     : [1, 0],
-                'scale'       : 2
-            } , {
-                'selector'    : '.dei-2',
-                'translateY'  : '-5%',
-                'translateX'  : '-4%',
-                'opacity'     : [1, 0] // hack to decelrate opacity speed
-            } , {
-                'selector'    : '.dei-3',
-                'translateY'  : '-9%',
-                'translateX'  : '2%',
-                'opacity'     : [1, 0], // hack to accelrate opacity speed
-                'scale'       : 1.2
-            } , {
-                'selector'    : '.dei-4',
-                'translateY'  : '-17%',
-                'translateX'  : '8%',
-                'opacity'     : [1, 0], // hack to accelrate opacity speed
-                'scale'       : 1.5
-            } , {
-                'selector'    : '.dei-5',
-                'translateY'  : '-2%',
-                'translateX'  : '-15%',
-                'opacity'     : [1, 0],
-                'scale'       : 2
-            } , {
-                'selector'    : '.dei-6',
-                'translateY'  : '-1%',
-                'translateX'  : '-7%',
-                'opacity'     : [1, 0], // hack to decelrate opacity speed
-                'scale'       : 1.2
-            } , {
-                'selector'    : '.dei-7',
-                'translateY'  : '-4%',
-                'translateX'  : '2%',
-                'opacity'     : [1, 0], // hack to accelrate opacity speed
-                'scale'       : 1.1
-            } , {
-                'selector'    : '.dei-8',
-                'translateY'  : '-3%',
-                'translateX'  : '12%',
-                'opacity'     : [1, 0], // hack to accelrate opacity speed
-                'scale'       : 1.8
-            } , {
-                'selector'    : '.dei-9',
-                'translateY'  : '3%',
-                'translateX'  : '-12%',
-                'opacity'     : [1, 0],
-                'scale'       : 1.5
-            } , {
-                'selector'    : '.dei-10',
-                'translateY'  : '5%',
-                'translateX'  : '-4%',
-                'opacity'     : [1, 0] // hack to decelrate opacity speed
-            } , {
-                'selector'    : '.dei-11',
-                'translateY'  : '8%',
-                'translateX'  : '6%',
-                'opacity'     : [1, 0], // hack to accelrate opacity speed
-                'scale'       : 1.4
-            } , {
-                'selector'    : '.dei-12',
-                'translateY'  : '1%',
-                'translateX'  : '20%',
-                'opacity'     : [1, 0], // hack to accelrate opacity speed
-                'scale'       : 1.9
-            } , {
-                'selector'    : '.dei-13',
-                'translateY'  : '8%',
-                'translateX'  : '-12%',
-                'opacity'     : [1, 0],
-                'scale'       : 1.8
-            } , {
-                'selector'    : '.dei-14',
-                'translateY'  : '4%',
-                'translateX'  : '-3%',
-                'opacity'     : [1, 0], // hack to decelrate opacity speed
-                'scale'       : 1.3
-            } , {
-                'selector'    : '.dei-15',
-                'translateY'  : '14%',
-                'translateX'  : '5%',
-                'opacity'     : [1, 0], // hack to accelrate opacity speed
-                'scale'       : 1.7
-            } , {
-                'selector'    : '.dei-16',
-                'translateY'  : '6%',
-                'translateX'  : '9%',
-                'opacity'     : [1, 0], // hack to accelrate opacity speed
-                'scale'       : 2
-            }
-        ]
-    };
-
-    var explosion3 = {
-        'wrapper' : '#explosion',
-        'duration' : '100%',
-        'animations' :  [
-            {
-                'selector'    : '.explosion-byline',
-                'translateY'  : ['-25%', '-40%'],
-                'opacity'     : [1, 0] // hack to accelrate opacity speed
-            }
-        ]
-    };
-
-    var firstTime = {
-        'wrapper' : '#first-time',
-        'duration' : '100%',
         'animations' :  [
             {
                 'selector'    : '.name',
-                'translateY'  : -140,
+                'translateY'  : -80,
                 'opacity'     : 0
             }
         ]
+    };
+
+    //var explosion1 = {
+    //    'wrapper' : '#explosion',
+    //    'duration' : '150%',
+    //    'animations' :  [
+    //        {
+    //            'selector'    : '.explosion-byline',
+    //            'translateY'  : '-25%',
+    //            'opacity'     : [0, 1.75] // hack to accelrate opacity speed
+    //        } , {
+    //            'selector'    : '#domExplosionList',
+    //            'translateY'  : '-70%',
+    //            'opacity'     : [0, 1] // hack to accelrate opacity speed
+    //        }
+    //    ]
+    //};
+    //
+    //var explosion2 = {
+    //    'wrapper' : '#explosion',
+    //    'duration' : '150%',
+    //    'animations' :  [
+    //        {
+    //            'selector'    : '.dei-1',
+    //            'translateY'  : '-15%',
+    //            'translateX'  : '-10%',
+    //            'opacity'     : [1, 0],
+    //            'scale'       : 2
+    //        } , {
+    //            'selector'    : '.dei-2',
+    //            'translateY'  : '-5%',
+    //            'translateX'  : '-4%',
+    //            'opacity'     : [1, 0] // hack to decelrate opacity speed
+    //        } , {
+    //            'selector'    : '.dei-3',
+    //            'translateY'  : '-9%',
+    //            'translateX'  : '2%',
+    //            'opacity'     : [1, 0], // hack to accelrate opacity speed
+    //            'scale'       : 1.2
+    //        } , {
+    //            'selector'    : '.dei-4',
+    //            'translateY'  : '-17%',
+    //            'translateX'  : '8%',
+    //            'opacity'     : [1, 0], // hack to accelrate opacity speed
+    //            'scale'       : 1.5
+    //        } , {
+    //            'selector'    : '.dei-5',
+    //            'translateY'  : '-2%',
+    //            'translateX'  : '-15%',
+    //            'opacity'     : [1, 0],
+    //            'scale'       : 2
+    //        } , {
+    //            'selector'    : '.dei-6',
+    //            'translateY'  : '-1%',
+    //            'translateX'  : '-7%',
+    //            'opacity'     : [1, 0], // hack to decelrate opacity speed
+    //            'scale'       : 1.2
+    //        } , {
+    //            'selector'    : '.dei-7',
+    //            'translateY'  : '-4%',
+    //            'translateX'  : '2%',
+    //            'opacity'     : [1, 0], // hack to accelrate opacity speed
+    //            'scale'       : 1.1
+    //        } , {
+    //            'selector'    : '.dei-8',
+    //            'translateY'  : '-3%',
+    //            'translateX'  : '12%',
+    //            'opacity'     : [1, 0], // hack to accelrate opacity speed
+    //            'scale'       : 1.8
+    //        } , {
+    //            'selector'    : '.dei-9',
+    //            'translateY'  : '3%',
+    //            'translateX'  : '-12%',
+    //            'opacity'     : [1, 0],
+    //            'scale'       : 1.5
+    //        } , {
+    //            'selector'    : '.dei-10',
+    //            'translateY'  : '5%',
+    //            'translateX'  : '-4%',
+    //            'opacity'     : [1, 0] // hack to decelrate opacity speed
+    //        } , {
+    //            'selector'    : '.dei-11',
+    //            'translateY'  : '8%',
+    //            'translateX'  : '6%',
+    //            'opacity'     : [1, 0], // hack to accelrate opacity speed
+    //            'scale'       : 1.4
+    //        } , {
+    //            'selector'    : '.dei-12',
+    //            'translateY'  : '1%',
+    //            'translateX'  : '20%',
+    //            'opacity'     : [1, 0], // hack to accelrate opacity speed
+    //            'scale'       : 1.9
+    //        } , {
+    //            'selector'    : '.dei-13',
+    //            'translateY'  : '8%',
+    //            'translateX'  : '-12%',
+    //            'opacity'     : [1, 0],
+    //            'scale'       : 1.8
+    //        } , {
+    //            'selector'    : '.dei-14',
+    //            'translateY'  : '4%',
+    //            'translateX'  : '-3%',
+    //            'opacity'     : [1, 0], // hack to decelrate opacity speed
+    //            'scale'       : 1.3
+    //        } , {
+    //            'selector'    : '.dei-15',
+    //            'translateY'  : '14%',
+    //            'translateX'  : '5%',
+    //            'opacity'     : [1, 0], // hack to accelrate opacity speed
+    //            'scale'       : 1.7
+    //        } , {
+    //            'selector'    : '.dei-16',
+    //            'translateY'  : '6%',
+    //            'translateX'  : '9%',
+    //            'opacity'     : [1, 0], // hack to accelrate opacity speed
+    //            'scale'       : 2
+    //        }
+    //    ]
+    //};
+    //
+    //var explosion3 = {
+    //    'wrapper' : '#explosion',
+    //    'duration' : '100%',
+    //    'animations' :  [
+    //        {
+    //            'selector'    : '.explosion-byline',
+    //            'translateY'  : ['-25%', '-40%'],
+    //            'opacity'     : [1, 0] // hack to accelrate opacity speed
+    //        }
+    //    ]
+    //};
+
+    var firstTimeStarbuck1 = {
+        'wrapper' : '#first-time-starbuck',
+        'duration' : '150%',
+        'animations' :  [
+            {
+                'selector'    : '.starbuck-first-line',
+                'translateY'  : '-7%'
+            } , {
+                'selector'    : '.starbuck-second-line',
+                'translateY'  : '-5%'
+            } 
+        ]
+    };
+
+    var firstTimeStarbuck2 = {
+        'wrapper' : '#first-time-starbuck',
+        'duration' : '20%',
+        'animations' :  []
+    };
+    
+    var firstTimeStarbuck3 = {
+        'wrapper' : '#first-time-starbuck',
+        'duration' : '100%',
+        'animations' :  [
+            {
+                'selector'    : '.starbuck-first-line',
+                'translateY'  : ['-7%', '-14%'],
+                'opacity'     : 0
+            } , {
+                'selector'    : '.starbuck-second-line',
+                 'translateY'  : ['-5%', '-10%'],
+                 'opacity'     : 0
+            } , {
+                'selector'    : '#starbuck',
+                'translateY'  : '-10%',
+                'opacity'     : 0
+            }
+        ]
+    };
+
+    var firstTimeStarbuck4 = {
+        'wrapper' : '#first-time-starbuck',
+        'duration' : '20%',
+        'animations' :  []
+    };
+
+    var firstTimeImpression = {
+        'wrapper' : '#first-time-impression',
+        'duration' : '100%',
+        'animations' :  [
+            {
+                'selector'    : '.impression-small-name',
+                'translateY'  : -130,
+                'opacity'     : 0
+            } , {
+                'selector'    : '.impression-big-name',
+                'translateY'  : -100,
+                'opacity'     : 0
+            }
+        ]
+    };
+
+    var closerDresden = {
+        'wrapper' : '#closer-dresden',
+        'background': 'dresden-background',
+        'duration' : '150%',
+        'animations' :  []
+    };
+
+    var inloveDresden = {
+        'wrapper' : '#inlove-dresden',
+        'duration' : '150%',
+        'animations' :  []
+    };
+    
+    var frindtopartner = {
+        'wrapper' : '#frindtopartner',
+        'duration' : '150%',
+        'animations' :  []
     };
 
     var images1 = {
@@ -205,8 +286,8 @@
             {
                 'selector'    : '.images-byline',
                 'translateY'  : ['-25%', '-25%'],
-                'scale'       : .7,
-                'opacity'     : [1.75, -.75] // hack to accelrate opacity speed
+                'scale'       : 0.7,
+                'opacity'     : [1.75, -0.75] // hack to accelrate opacity speed
             } , {
                 'selector'    : '.images-byline-2',
                 'opacity'     : [0, 1],
@@ -214,8 +295,8 @@
             } , {
                 'selector'    : '#mediumHomepage',
                 'translateY'  : ['-90%', '-90%'],
-                'scale'       : .8,
-                'opacity'     : -.75
+                'scale'       : 0.8,
+                'opacity'     : -0.75
             } , {
                 'selector'    : '.iphone',
                 'translateY'  : ['-66%', '-90%'],
@@ -224,14 +305,14 @@
                 'scale'       : 1.3
             } , {
                 'selector'    : '#medium-profile-iphone',
-                'scale'       : .9,
+                'scale'       : 0.9,
                 'translateX'  : '20%'
             } , {
                 'selector'    : '#davegamache-dot-com',
-                'scale'       : [.5, 1]
+                'scale'       : [0.5, 1]
             } , {
                 'selector'    : '#video',
-                'scale'       : [.5, 1],
+                'scale'       : [0.5, 1],
                 'rotate'      : 90
             }
         ]
@@ -249,7 +330,7 @@
         'animations' :  [
             {
                 'selector'    : '.images-byline-2',
-                'opacity'     : [1, .5],
+                'opacity'     : [1, 0.5],
                 'translateY'  : ['-15%', '50%'],
                 'opacity'     : [1, -2]
             } , {
@@ -274,10 +355,15 @@
 
     var keyframes = [
         intro,
-        explosion1,
-        explosion2,
-        explosion3,
-        firstTime,
+        theBeginning,
+        firstTimeStarbuck1,
+        firstTimeStarbuck2,
+        firstTimeStarbuck3,
+        firstTimeStarbuck4,
+        firstTimeImpression,
+        closerDresden,
+        inloveDresden,
+        frindtopartner,
         images1,
         images2,
         images3,
@@ -308,13 +394,14 @@
     buildPage = function() {
         var i, j, k;
         for(i=0;i<keyframes.length;i++) { // loop keyframes
-            bodyHeight += keyframes[i].duration;
-            if($.inArray(keyframes[i].wrapper, wrappers) == -1) {
-                wrappers.push(keyframes[i].wrapper);
+            var keyframe = keyframes[i];
+            bodyHeight += keyframe.duration;
+            if($.inArray(keyframe.wrapper, wrappers) === -1) {
+                wrappers.push(keyframe.wrapper);
             }
-            for(j=0;j<keyframes[i].animations.length;j++) { // loop animations
-                Object.keys(keyframes[i].animations[j]).forEach(function(key) { // loop properties
-                    value = keyframes[i].animations[j][key];
+            for(j=0;j<keyframe.animations.length;j++) { // loop animations
+                Object.keys(keyframe.animations[j]).forEach(function(key) { // loop properties
+                    var value = keyframes[i].animations[j][key];
                     if(key !== 'selector' && value instanceof Array === false) {
                         var valueSet = [];
                         valueSet.push(getDefaultPropertyValue(key), value);
@@ -444,10 +531,14 @@
 
     showCurrentWrappers = function() {
         var i;
-        if(keyframes[currentKeyframe].wrapper !== currentWrapper) {
+        var keyframe = keyframes[currentKeyframe];
+        if(keyframe.wrapper !== currentWrapper) {
             $(currentWrapper).hide();
-            $(keyframes[currentKeyframe].wrapper).show();
-            currentWrapper = keyframes[currentKeyframe].wrapper;
+            $(keyframe.wrapper).show();
+            currentWrapper = keyframe.wrapper;
+            if (typeof keyframe.background !== 'undefined') {
+                $('#fullscreen-background').removeClass().addClass(keyframe.background);
+            }
         }
     };
 
