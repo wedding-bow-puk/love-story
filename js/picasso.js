@@ -184,7 +184,10 @@
             } , {
                 'selector'    : '.starbuck-second-line',
                 'translateY'  : '-5%'
-            } 
+            } , {
+                'selector'    : '#starbuck',
+                'translateY'  : '-10%'
+            }
         ]
     };
 
@@ -208,9 +211,9 @@
                  'opacity'     : 0
             } , {
                 'selector'    : '#starbuck',
-                'translateY'  : '-10%',
-                'opacity'     : -0.5
-            }
+                'translateY'  : ['-10%', '-3%'],
+                'opacity'     : 0
+            } 
         ]
     };
 
@@ -236,18 +239,75 @@
         ]
     };
 
-    var closerDresden = {
+    var closerDresden1 = {
         'wrapper' : '#closer-dresden',
         'background': 'dresden-background',
-        'duration' : '100%',
+        'duration' : '150%',
+        'animations' :  [
+            {
+                'selector'    : '.closer-dresden-big-name',
+                'translateY'  : -140,
+                'opacity'     : [1.75, 0]
+            } , {
+                'selector'    : '.closer-dresden-small-name',
+                'translateY'  : -100,
+                'opacity'     : [1.75, 0]
+            }
+        ]
+    };
+    var closerDresden2 = {
+        'wrapper' : '#closer-dresden',
+        'background': 'dresden-background',
+        'duration' : '50%',
         'animations' :  []
     };
 
-    var inloveDresden = {
+    var inloveDresden1 = {
         'wrapper' : '#inlove-dresden',
         'background': 'dresden-background',
         'duration' : '100%',
-        'animations' :  []
+        'animations' :  [
+           {
+                'selector'    : '.inlove-blur-rose1',
+                'translateY'  : -10
+            } , {
+                'selector'    : '.inlove-blur-rose2',
+                'translateY'  : -5
+            } , {
+                'selector'    : '.inlove-blur-rose3',
+                'translateY'  : -2
+            } , {
+                'selector'    : '.inlove-blur-rose4',
+                'translateY'  : -10
+            } , {
+                'selector'    : '.inlove-blur-rose5',
+                'translateY'  : -8
+            }  
+        ]
+    };
+
+    var inloveDresden2 = {
+        'wrapper' : '#inlove-dresden',
+        'background': 'dresden-background',
+        'duration' : '100%',
+        'animations' :  [
+           {
+                'selector'    : '.inlove-blur-rose1',
+                'translateY'  : [-10, -15]
+            } , {
+                'selector'    : '.inlove-blur-rose2',
+                'translateY'  : [-5, -7]
+            } , {
+                'selector'    : '.inlove-blur-rose3',
+                'translateY'  : [-2, -5]
+            } , {
+                'selector'    : '.inlove-blur-rose4',
+                'translateY'  : [-10, -15]
+            } , {
+                'selector'    : '.inlove-blur-rose5',
+                'translateY'  : [-8, -15]
+            }  
+        ]
     };
     
     var frindtopartner = {
@@ -363,8 +423,10 @@
         firstTimeStarbuck3,
         firstTimeStarbuck4,
         firstTimeImpression,
-        closerDresden,
-        inloveDresden,
+        closerDresden1,
+        closerDresden2,
+        inloveDresden1,
+        inloveDresden2,
         frindtopartner,
         images1,
         images2,
