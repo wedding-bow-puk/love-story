@@ -44,136 +44,6 @@
         ]
     };
 
-    //var explosion1 = {
-    //    'wrapper' : '#explosion',
-    //    'duration' : '150%',
-    //    'animations' :  [
-    //        {
-    //            'selector'    : '.explosion-byline',
-    //            'translateY'  : '-25%',
-    //            'opacity'     : [0, 1.75] // hack to accelrate opacity speed
-    //        } , {
-    //            'selector'    : '#domExplosionList',
-    //            'translateY'  : '-70%',
-    //            'opacity'     : [0, 1] // hack to accelrate opacity speed
-    //        }
-    //    ]
-    //};
-    //
-    //var explosion2 = {
-    //    'wrapper' : '#explosion',
-    //    'duration' : '150%',
-    //    'animations' :  [
-    //        {
-    //            'selector'    : '.dei-1',
-    //            'translateY'  : '-15%',
-    //            'translateX'  : '-10%',
-    //            'opacity'     : [1, 0],
-    //            'scale'       : 2
-    //        } , {
-    //            'selector'    : '.dei-2',
-    //            'translateY'  : '-5%',
-    //            'translateX'  : '-4%',
-    //            'opacity'     : [1, 0] // hack to decelrate opacity speed
-    //        } , {
-    //            'selector'    : '.dei-3',
-    //            'translateY'  : '-9%',
-    //            'translateX'  : '2%',
-    //            'opacity'     : [1, 0], // hack to accelrate opacity speed
-    //            'scale'       : 1.2
-    //        } , {
-    //            'selector'    : '.dei-4',
-    //            'translateY'  : '-17%',
-    //            'translateX'  : '8%',
-    //            'opacity'     : [1, 0], // hack to accelrate opacity speed
-    //            'scale'       : 1.5
-    //        } , {
-    //            'selector'    : '.dei-5',
-    //            'translateY'  : '-2%',
-    //            'translateX'  : '-15%',
-    //            'opacity'     : [1, 0],
-    //            'scale'       : 2
-    //        } , {
-    //            'selector'    : '.dei-6',
-    //            'translateY'  : '-1%',
-    //            'translateX'  : '-7%',
-    //            'opacity'     : [1, 0], // hack to decelrate opacity speed
-    //            'scale'       : 1.2
-    //        } , {
-    //            'selector'    : '.dei-7',
-    //            'translateY'  : '-4%',
-    //            'translateX'  : '2%',
-    //            'opacity'     : [1, 0], // hack to accelrate opacity speed
-    //            'scale'       : 1.1
-    //        } , {
-    //            'selector'    : '.dei-8',
-    //            'translateY'  : '-3%',
-    //            'translateX'  : '12%',
-    //            'opacity'     : [1, 0], // hack to accelrate opacity speed
-    //            'scale'       : 1.8
-    //        } , {
-    //            'selector'    : '.dei-9',
-    //            'translateY'  : '3%',
-    //            'translateX'  : '-12%',
-    //            'opacity'     : [1, 0],
-    //            'scale'       : 1.5
-    //        } , {
-    //            'selector'    : '.dei-10',
-    //            'translateY'  : '5%',
-    //            'translateX'  : '-4%',
-    //            'opacity'     : [1, 0] // hack to decelrate opacity speed
-    //        } , {
-    //            'selector'    : '.dei-11',
-    //            'translateY'  : '8%',
-    //            'translateX'  : '6%',
-    //            'opacity'     : [1, 0], // hack to accelrate opacity speed
-    //            'scale'       : 1.4
-    //        } , {
-    //            'selector'    : '.dei-12',
-    //            'translateY'  : '1%',
-    //            'translateX'  : '20%',
-    //            'opacity'     : [1, 0], // hack to accelrate opacity speed
-    //            'scale'       : 1.9
-    //        } , {
-    //            'selector'    : '.dei-13',
-    //            'translateY'  : '8%',
-    //            'translateX'  : '-12%',
-    //            'opacity'     : [1, 0],
-    //            'scale'       : 1.8
-    //        } , {
-    //            'selector'    : '.dei-14',
-    //            'translateY'  : '4%',
-    //            'translateX'  : '-3%',
-    //            'opacity'     : [1, 0], // hack to decelrate opacity speed
-    //            'scale'       : 1.3
-    //        } , {
-    //            'selector'    : '.dei-15',
-    //            'translateY'  : '14%',
-    //            'translateX'  : '5%',
-    //            'opacity'     : [1, 0], // hack to accelrate opacity speed
-    //            'scale'       : 1.7
-    //        } , {
-    //            'selector'    : '.dei-16',
-    //            'translateY'  : '6%',
-    //            'translateX'  : '9%',
-    //            'opacity'     : [1, 0], // hack to accelrate opacity speed
-    //            'scale'       : 2
-    //        }
-    //    ]
-    //};
-    //
-    //var explosion3 = {
-    //    'wrapper' : '#explosion',
-    //    'duration' : '100%',
-    //    'animations' :  [
-    //        {
-    //            'selector'    : '.explosion-byline',
-    //            'translateY'  : ['-25%', '-40%'],
-    //            'opacity'     : [1, 0] // hack to accelrate opacity speed
-    //        }
-    //    ]
-    //};
-
     var firstTimeStarbuck1 = {
         'wrapper' : '#first-time-starbuck',
         'duration' : '150%',
@@ -239,6 +109,144 @@
         ]
     };
 
+    var timePassed1 = {
+        'wrapper' : '#time-passed',
+        'duration' : '150%',
+        'animations' :  [
+            {
+                'selector'    : '.time-passed-small-name',
+                'translateY'  : '-25%',
+                'opacity'     : [0, 1.75]
+            } , {
+                'selector'    : '.time-passed-big-name',
+                'translateY'  : '-25%',
+                'opacity'     : [0, 1.75]
+            } , {
+               'selector'    : '#domExplosionList',
+               'translateY'  : '-70%',
+               'opacity'     : [0, 1] // hack to accelrate opacity speed
+           }
+        ]
+    }
+   
+    var timePassed2 = {
+       'wrapper' : '#time-passed',
+       'duration' : '150%',
+       'animations' :  [
+           {
+               'selector'    : '.dei-1',
+               'translateY'  : '-15%',
+               'translateX'  : '-10%',
+               'opacity'     : [1, 0],
+               'scale'       : 2
+           } , {
+               'selector'    : '.dei-2',
+               'translateY'  : '-5%',
+               'translateX'  : '-4%',
+               'opacity'     : [1, 0] // hack to decelrate opacity speed
+           } , {
+               'selector'    : '.dei-3',
+               'translateY'  : '-9%',
+               'translateX'  : '2%',
+               'opacity'     : [1, 0], // hack to accelrate opacity speed
+               'scale'       : 1.2
+           } , {
+               'selector'    : '.dei-4',
+               'translateY'  : '-17%',
+               'translateX'  : '8%',
+               'opacity'     : [1, 0], // hack to accelrate opacity speed
+               'scale'       : 1.5
+           } , {
+               'selector'    : '.dei-5',
+               'translateY'  : '-2%',
+               'translateX'  : '-15%',
+               'opacity'     : [1, 0],
+               'scale'       : 2
+           } , {
+               'selector'    : '.dei-6',
+               'translateY'  : '-1%',
+               'translateX'  : '-7%',
+               'opacity'     : [1, 0], // hack to decelrate opacity speed
+               'scale'       : 1.2
+           } , {
+               'selector'    : '.dei-7',
+               'translateY'  : '-4%',
+               'translateX'  : '2%',
+               'opacity'     : [1, 0], // hack to accelrate opacity speed
+               'scale'       : 1.1
+           } , {
+               'selector'    : '.dei-8',
+               'translateY'  : '-3%',
+               'translateX'  : '12%',
+               'opacity'     : [1, 0], // hack to accelrate opacity speed
+               'scale'       : 1.8
+           } , {
+               'selector'    : '.dei-9',
+               'translateY'  : '3%',
+               'translateX'  : '-12%',
+               'opacity'     : [1, 0],
+               'scale'       : 1.5
+           } , {
+               'selector'    : '.dei-10',
+               'translateY'  : '5%',
+               'translateX'  : '-4%',
+               'opacity'     : [1, 0] // hack to decelrate opacity speed
+           } , {
+               'selector'    : '.dei-11',
+               'translateY'  : '8%',
+               'translateX'  : '6%',
+               'opacity'     : [1, 0], // hack to accelrate opacity speed
+               'scale'       : 1.4
+           } , {
+               'selector'    : '.dei-12',
+               'translateY'  : '1%',
+               'translateX'  : '20%',
+               'opacity'     : [1, 0], // hack to accelrate opacity speed
+               'scale'       : 1.9
+           } , {
+               'selector'    : '.dei-13',
+               'translateY'  : '8%',
+               'translateX'  : '-12%',
+               'opacity'     : [1, 0],
+               'scale'       : 1.8
+           } , {
+               'selector'    : '.dei-14',
+               'translateY'  : '4%',
+               'translateX'  : '-3%',
+               'opacity'     : [1, 0], // hack to decelrate opacity speed
+               'scale'       : 1.3
+           } , {
+               'selector'    : '.dei-15',
+               'translateY'  : '14%',
+               'translateX'  : '5%',
+               'opacity'     : [1, 0], // hack to accelrate opacity speed
+               'scale'       : 1.7
+           } , {
+               'selector'    : '.dei-16',
+               'translateY'  : '6%',
+               'translateX'  : '9%',
+               'opacity'     : [1, 0], // hack to accelrate opacity speed
+               'scale'       : 2
+           }
+       ]
+    };
+    
+    var timePassed3 = {
+       'wrapper' : '#time-passed',
+       'duration' : '100%',
+       'animations' :  [
+            {
+                'selector'    : '.time-passed-small-name',
+                'translateY'  : ['-25%', '-40%'],
+                'opacity'     : [1, 0]
+            } , {
+                'selector'    : '.time-passed-big-name',
+                'translateY'  : ['-25%', '-40%'],
+                'opacity'     : [1, 0]
+            }
+       ]
+    };
+
     var closerDresden1 = {
         'wrapper' : '#closer-dresden',
         'background': 'dresden-background',
@@ -267,7 +275,7 @@
         'background': 'dresden-background',
         'duration' : '100%',
         'animations' :  [
-           {
+            {
                 'selector'    : '.inlove-blur-rose1',
                 'translateY'  : -10
             } , {
@@ -282,6 +290,38 @@
             } , {
                 'selector'    : '.inlove-blur-rose5',
                 'translateY'  : -8
+            } , {
+                'selector'    : '.inlove-clear-rose1',
+                'translateY'  : -5,
+                'translateX'  : -4
+            } , {
+                'selector'    : '.inlove-clear-rose2',
+                'translateY'  : -2,
+                'translateX'  : 1
+            } , {
+                'selector'    : '.inlove-clear-rose3',
+                'translateY'  : -2,
+                'translateX'  : 4
+            } , {
+                'selector'    : '.inlove-clear-rose4',
+                'translateY'  : -2,
+                'translateX'  : -3
+            } , {
+                'selector'    : '.inlove-clear-rose5',
+                'translateY'  : -3,
+                'translateX'  : -2
+            } , {
+                'selector'    : '.inlove-clear-rose6',
+                'translateY'  : -4,
+                'translateX'  : -6
+            } , {
+                'selector'    : '.inlove-clear-rose7',
+                'translateY'  : -1,
+                'translateX'  : -3
+            } , {
+                'selector'    : '.inlove-clear-rose8',
+                'translateY'  : -2,
+                'translateX'  : -5
             }  
         ]
     };
@@ -306,6 +346,38 @@
             } , {
                 'selector'    : '.inlove-blur-rose5',
                 'translateY'  : [-8, -15]
+            } , {
+                'selector'    : '.inlove-clear-rose1',
+                'translateY'  : [-5, -7],
+                'translateX'  : [-4, -6]
+            } , {
+                'selector'    : '.inlove-clear-rose2',
+                'translateY'  : [-2, -6],
+                'translateX'  : [1, 3]
+            } , {
+                'selector'    : '.inlove-clear-rose3',
+                'translateY'  : [-2, -5],
+                'translateX'  : [4, 6]
+            } , {
+                'selector'    : '.inlove-clear-rose4',
+                'translateY'  : [-2, -3],
+                'translateX'  : [-3, -5]
+            } , {
+                'selector'    : '.inlove-clear-rose5',
+                'translateY'  : [-3, -4],
+                'translateX'  : [-2, -5]
+            } , {
+                'selector'    : '.inlove-clear-rose6',
+                'translateY'  : [-4, -6],
+                'translateX'  : [-6, -8]
+            } , {
+                'selector'    : '.inlove-clear-rose7',
+                'translateY'  : [-1, -3],
+                'translateX'  : [-3, -4]
+            } , {
+                'selector'    : '.inlove-clear-rose8',
+                'translateY'  : [-2, -5],
+                'translateX'  : [-5, -6]
             }  
         ]
     };
@@ -314,7 +386,13 @@
         'wrapper' : '#frindtopartner',
         'background': 'dresden-background',
         'duration' : '100%',
-        'animations' :  []
+        'animations' :  [
+            {
+                'selector'    : '.frindtopartner-small-name',
+                'translateY'  : '-25%',
+                'opacity'     : 0
+            }
+        ]
     };
 
     var images1 = {
@@ -423,6 +501,9 @@
         firstTimeStarbuck3,
         firstTimeStarbuck4,
         firstTimeImpression,
+        timePassed1,
+        timePassed2,
+        timePassed3,
         closerDresden1,
         closerDresden2,
         inloveDresden1,

@@ -145,38 +145,6 @@ body {
     opacity: 0;
 }
 
-/* 3. Explosion Keyframe
---------------------------------------- */
-#domExplosionList {
-    position: fixed;
-    width: 270px;
-    top: 100%;
-    right: 15%;
-    opacity: 0;
-}
-.dom-explosion-item {
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    background-color: #fff;
-}
-.dei-1  { top: 0;   left: 0;  }
-.dei-2  { top: 0;   left: 70px; }
-.dei-3  { top: 0;   left: 140px; }
-.dei-4  { top: 0;   left: 210px; }
-.dei-5  { top: 70px;   left: 0;  }
-.dei-6  { top: 70px;   left: 70px; }
-.dei-7  { top: 70px;   left: 140px; }
-.dei-8  { top: 70px;   left: 210px; }
-.dei-9  { top: 140px;   left: 0;  }
-.dei-10 { top: 140px;   left: 70px; }
-.dei-11 { top: 140px;   left: 140px; }
-.dei-12 { top: 140px;   left: 210px; }
-.dei-13 { top: 210px;   left: 0;  }
-.dei-14 { top: 210px;   left: 70px; }
-.dei-15 { top: 210px;   left: 140px; }
-.dei-16 { top: 210px;   left: 210px; }
-
 
 /* 3. First Time Starbuck
 --------------------------------------- */
@@ -189,7 +157,7 @@ body {
     color: white;
     max-width: 40%;
     opacity: 0;
-    font-size: 15px;
+    font-size: 25px !important;
     letter-spacing: 4px;
     text-align: center;
     font-weight: 300;
@@ -238,7 +206,62 @@ body {
     opacity: 0;
 }
 
-/* 5. Closer Dresden Keyframe
+/* 5. First Time Impression Keyframe
+--------------------------------------- */
+#time-passed {
+    position: fixed;
+    top: 30%;
+    left: 10%;
+    width: 50%;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.time-passed-small-name {
+    font-size: 14px;
+    letter-spacing: 12px;
+    line-height: 1.5;
+    font-weight: 900;
+    opacity: 0;
+}
+.time-passed-big-name {
+    font-size: 35px;
+    letter-spacing: 12px;
+    line-height: 1.5;
+    font-weight: 900;
+    opacity: 0;
+}
+#domExplosionList {
+    position: fixed;
+    width: 270px;
+    top: 100%;
+    right: 15%;
+    opacity: 0;
+}
+.dom-explosion-item {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+}
+.dei-1  { top: 0;   left: 0;  }
+.dei-2  { top: 0;   left: 70px; }
+.dei-3  { top: 0;   left: 140px; }
+.dei-4  { top: 0;   left: 210px; }
+.dei-5  { top: 70px;   left: 0;  }
+.dei-6  { top: 70px;   left: 70px; }
+.dei-7  { top: 70px;   left: 140px; }
+.dei-8  { top: 70px;   left: 210px; }
+.dei-9  { top: 140px;   left: 0;  }
+.dei-10 { top: 140px;   left: 70px; }
+.dei-11 { top: 140px;   left: 140px; }
+.dei-12 { top: 140px;   left: 210px; }
+.dei-13 { top: 210px;   left: 0;  }
+.dei-14 { top: 210px;   left: 70px; }
+.dei-15 { top: 210px;   left: 140px; }
+.dei-16 { top: 210px;   left: 210px; }
+
+/* 6. Closer Dresden Keyframe
 --------------------------------------- */
 #closer-dresden {
     position: fixed;
@@ -249,14 +272,12 @@ body {
     text-align: center;
     text-transform: uppercase;
 }
-
 .closer-dresden-big-name {
     font-size: 35px;
     letter-spacing: 12px;
     line-height: 1.5;
     font-weight: 900;
 }
-
 .closer-dresden-small-name {
     font-size: 13px;
     letter-spacing: 12px;
@@ -264,7 +285,7 @@ body {
     font-weight: 900;
 }
 
-/* 6. In Love Dresden Keyframe
+/* 7. In Love Dresden Keyframe
 --------------------------------------- */
 #inlove-dresden {
     position: fixed;
@@ -275,68 +296,94 @@ body {
     text-align: center;
     text-transform: uppercase;
 }
-
 .inlove-dresden-small-name {
     font-size: 14px;
     letter-spacing: 12px;
     line-height: 1.5;
     font-weight: 900;
 }
-
 .inlove-dresden-big-name {
-    font-size: 25px;
+    font-size: 13px;
     letter-spacing: 12px;
     line-height: 1.5;
     font-weight: 900;
 }
-
 .inlove-bg-rose {
     top: 30%;
     left: 5%;   
 }
-
-.inlove-normal-rose1 {
+.inlove-clear-rose1 {
     position: fixed;
     top: 50%;
     left: 30%;
     z-index: 990 
 }
-
-.inlove-normal-rose2 {
+.inlove-clear-rose2 {
     position: fixed;
     top: 40%;
     left: 20%;
     z-index: 990 
 }
-
+.inlove-clear-rose3 {
+    position: fixed;
+    top: 50%;
+    left: 10%;
+    z-index: 990 
+}
+.inlove-clear-rose4 {
+    position: fixed;
+    top: 14%;
+    left: 80%;
+    z-index: 990 
+}
+.inlove-clear-rose5 {
+    position: fixed;
+    top: 80%;
+    left: 90%;
+    z-index: 990 
+}
+.inlove-clear-rose6 {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    z-index: 990 
+}
+.inlove-clear-rose7 {
+    position: fixed;
+    top: 85%;
+    left: 90%;
+    z-index: 990 
+}
+.inlove-clear-rose8 {
+    position: fixed;
+    top: 90%;
+    left: 80%;
+    z-index: 990 
+}
 .inlove-blur-rose1 {
     position: fixed;
     top: 60px;
     right: 10px;
     z-index: 1000
 }
-
 .inlove-blur-rose2 {
     position: fixed;
     top: 20px;
     left: 10px;
     z-index: 1000
 }
-
 .inlove-blur-rose3 {
     position: fixed;
     top: 50px;
     left: 80px;
     z-index: 1000
 }
-
 .inlove-blur-rose4 {
     position: fixed;
     top: 50%;
     left: 50%;
     z-index: 1000
 }
-
 .inlove-blur-rose5 {
     position: fixed;
     top: 55%;
@@ -344,27 +391,26 @@ body {
     z-index: 1000
 }
 
-/* 7. Friend to Partner Keyframe
+/* 8. Friend to Partner Keyframe
 --------------------------------------- */
 #frindtopartner {
     position: fixed;
-    top: 80%;
-    left: 10%;
+    top: 50%;
+    right: 0%;
     width: 80%;
     color: #fff;
-    text-align: center;
+    text-align: right;
     text-transform: uppercase;
 }
 
-.frindtopartner-big-name {
+.frindtopartner-small-name {
     font-size: 35px;
     letter-spacing: 12px;
     line-height: 1.5;
     font-weight: 900;
-    opacity: 0;
 }
 
-/* 3. Images Keyframe
+/* 9. Images Keyframe
 --------------------------------------- */
 .raw-page {
     position: fixed;
