@@ -401,7 +401,7 @@
         'animations' :  [
             {
                 'selector'    : '.desert-small-name',
-                'translateY'  : '-25%',
+                'translateY'  : '-20%',
                 'opacity'     : 0
             },
             {
