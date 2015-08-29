@@ -460,7 +460,7 @@ body {
     right: 5%;
 }
 .image-big-name {
-   letter-spacing: 12px !important;
+   letter-spacing: 5px !important;
     line-height: 1.5 !important;
     font-weight: 900 !important; 
 }
@@ -495,13 +495,19 @@ body {
 #medium-profile-iphone {
     z-index: 2;
 }
-#video {
+#video-container {
     z-index: 2;
     margin-left: 10px;
     -ms-transform: rotate(90deg) !important; /* IE 9 */
     -webkit-transform: rotate(90deg) !important; /* Chrome, Opera 15+, Safari 3.1+ */
     -moz-transform: rotate(90deg) !important;
     transform: rotate(90deg) !important; /* Firefox 16+, IE 10+, Opera */
+}
+.marry-me {
+    font-size: 20px;
+    letter-spacing: 12px;
+    line-height: 1.5;
+    font-weight: 900;   
 }
 
 /* 4. Handling resize and small devices
