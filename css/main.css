@@ -96,6 +96,7 @@ body {
     letter-spacing: 4px;
     text-align: center;
     font-weight: 300;
+    text-transform: uppercase;
 }
 .ampersand {
     font-family: "Adobe Caslon Pro", "brandon-grotesque";
@@ -119,8 +120,7 @@ body {
 
 /* 2. Explosion/Images/Links Structure and Text
 --------------------------------------- */
-#explosion,
-#images {
+#explosion {
     position: fixed;
     top: 100%;
     width: 100%;
@@ -410,8 +410,43 @@ body {
     font-weight: 900;
 }
 
+/* 9. Desert Keyframe
+--------------------------------------- */
+#desert {
+    position: fixed;
+    top: 50%;
+    left: 3%;
+    width: 80%;
+    color: #fff;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.desert-small-name {
+    font-size: 15px;
+    letter-spacing: 12px;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.desert-big-name {
+    font-size: 20px;
+    letter-spacing: 12px;
+    line-height: 1.5;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+}
+
 /* 9. Images Keyframe
 --------------------------------------- */
+#images {
+    position: fixed;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    text-transform: uppercase;
+}
 .raw-page {
     position: fixed;
     width: 45%;
@@ -423,6 +458,11 @@ body {
 #mediumHomepage {
     top: 100%;
     right: 5%;
+}
+.image-big-name {
+   letter-spacing: 12px !important;
+    line-height: 1.5 !important;
+    font-weight: 900 !important; 
 }
 .iphone {
     position: fixed;

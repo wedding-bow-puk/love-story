@@ -395,6 +395,23 @@
         ]
     };
 
+    var desert = {
+        'wrapper' : '#desert',
+        'duration' : '150%',
+        'animations' :  [
+            {
+                'selector'    : '.desert-small-name',
+                'translateY'  : '-25%',
+                'opacity'     : 0
+            },
+            {
+                'selector'    : '.desert-big-name',
+                'translateY'  : '-10%',
+                'opacity'     : 0
+            }
+        ]
+    };
+
     var images1 = {
         'wrapper' : '#images',
         'duration' : '150%',
@@ -509,6 +526,7 @@
         inloveDresden1,
         inloveDresden2,
         frindtopartner,
+        desert,
         images1,
         images2,
         images3,
