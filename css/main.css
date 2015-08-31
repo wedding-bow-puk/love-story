@@ -497,11 +497,15 @@ body {
 }
 #video-container {
     z-index: 2;
-    margin-left: 10px;
+    opacity: 0;
     -ms-transform: rotate(90deg) !important; /* IE 9 */
     -webkit-transform: rotate(90deg) !important; /* Chrome, Opera 15+, Safari 3.1+ */
     -moz-transform: rotate(90deg) !important;
     transform: rotate(90deg) !important; /* Firefox 16+, IE 10+, Opera */
+}
+.video {
+    position: relative;
+    margin-left: -10px;
 }
 .marry-me {
     font-size: 20px;
