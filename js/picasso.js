@@ -478,7 +478,12 @@
     var images4 = {
         'wrapper' : '#images',
         'duration' : '40%',
-        'animations' :  []
+        'animations' :  [
+            {
+                'selector'    : '#video-container',
+                'opacity'     : 1
+            }
+        ]
     };
 
     var images5 = {
@@ -498,14 +503,16 @@
                 'scale'       : [1.3, 1.3]
             } , {
                 'selector'    : '#medium-profile-iphone',
-                'translateX'  : ['20%', '20%']
+                'translateX'  : ['20%', '20%'],
+                'display'     : 'none'
             } , {
                 'selector'    : '#davegamache-dot-com',
                 'scale'       : [1, 1]
             } , {
-                'selector'    : '#video',
+                'selector'    : '#video-container',
                 'scale'       : [1, 1],
-                'rotate'      : 90
+                'rotate'      : 90,
+                'opacity'     : 1
             }
         ]
     };
